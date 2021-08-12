@@ -26,9 +26,9 @@
 import PackageDescription
 
 let package = Package(name: "AlamofireImage",
-                      platforms: [.iOS(.v10),
+                      platforms: [.iOS(.v12),
                                   .macOS(.v10_12),
-                                  .tvOS(.v10),
+                                  .tvOS(.v12),
                                   .watchOS(.v3)],
                       products: [.library(name: "AlamofireImage", targets: ["AlamofireImage"])],
                       dependencies: [.package(url: "https://github.com/Alamofire/Alamofire.git",
